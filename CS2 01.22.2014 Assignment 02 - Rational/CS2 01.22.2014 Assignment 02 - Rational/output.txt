@@ -1,0 +1,24 @@
+Donald J Freiday
+CS2 : Assignment 2 : Rational Class
+
+Default rational r1: 1/1
+User entered new value for r1 via cin << r1: 1/64
+
+r1.numerator() : 1
+r1.denominator(): 64
+
+rational r2(1,4): 1/4
+
+rational r3(r1): 1/64
+rational r4 = r3 : 1/64
+
+r1 + r2 : 1/64 + 1/4 = 17/64
+r1 - r2 : 1/64 - 1/4 = -15/64
+r1 * r2 : 1/64 * 1/4 = 1/256
+r1 / r2 : 1/64 / 1/4 = 1/16
+
+rational r5 : 0/1
+r5 + r1 : 0/1 + 1/64 = 1/64
+r5 - r1 : 0/1 - 1/64 = 1/-64
+r5 * r1 : 0/1 * 1/64 = 0/1
+r5 / r1 : 0/1 / 1/64 = 0/1
